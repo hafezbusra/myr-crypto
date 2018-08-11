@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EFEABD5211E90C5003130CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFEABD4211E90C5003130CE /* AppDelegate.swift */; };
+		8EFEABD7211E90C5003130CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFEABD6211E90C5003130CE /* ViewController.swift */; };
+		8EFEABDA211E90C6003130CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFEABD8211E90C6003130CE /* Main.storyboard */; };
+		8EFEABDC211E90C6003130CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFEABDB211E90C6003130CE /* Assets.xcassets */; };
+		8EFEABDF211E90C6003130CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFEABDD211E90C6003130CE /* LaunchScreen.storyboard */; };
+		8EFEABEA211E90C6003130CE /* myr_cryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFEABE9211E90C6003130CE /* myr_cryptoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EFEABE6211E90C6003130CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EFEABC9211E90C5003130CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EFEABD0211E90C5003130CE;
+			remoteInfo = "myr-crypto";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EFEABD1211E90C5003130CE /* myr-crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "myr-crypto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EFEABD4211E90C5003130CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EFEABD6211E90C5003130CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EFEABD9211E90C6003130CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EFEABDB211E90C6003130CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EFEABDE211E90C6003130CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EFEABE0211E90C6003130CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EFEABE5211E90C6003130CE /* myr-cryptoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "myr-cryptoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EFEABE9211E90C6003130CE /* myr_cryptoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myr_cryptoTests.swift; sourceTree = "<group>"; };
+		8EFEABEB211E90C6003130CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EFEABCE211E90C5003130CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFEABE2211E90C6003130CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EFEABC8211E90C5003130CE = {
+			isa = PBXGroup;
+			children = (
+				8EFEABD3211E90C5003130CE /* myr-crypto */,
+				8EFEABE8211E90C6003130CE /* myr-cryptoTests */,
+				8EFEABD2211E90C5003130CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EFEABD2211E90C5003130CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EFEABD1211E90C5003130CE /* myr-crypto.app */,
+				8EFEABE5211E90C6003130CE /* myr-cryptoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EFEABD3211E90C5003130CE /* myr-crypto */ = {
+			isa = PBXGroup;
+			children = (
+				8EFEABD4211E90C5003130CE /* AppDelegate.swift */,
+				8EFEABD6211E90C5003130CE /* ViewController.swift */,
+				8EFEABD8211E90C6003130CE /* Main.storyboard */,
+				8EFEABDB211E90C6003130CE /* Assets.xcassets */,
+				8EFEABDD211E90C6003130CE /* LaunchScreen.storyboard */,
+				8EFEABE0211E90C6003130CE /* Info.plist */,
+			);
+			path = "myr-crypto";
+			sourceTree = "<group>";
+		};
+		8EFEABE8211E90C6003130CE /* myr-cryptoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EFEABE9211E90C6003130CE /* myr_cryptoTests.swift */,
+				8EFEABEB211E90C6003130CE /* Info.plist */,
+			);
+			path = "myr-cryptoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EFEABD0211E90C5003130CE /* myr-crypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EFEABEE211E90C6003130CE /* Build configuration list for PBXNativeTarget "myr-crypto" */;
+			buildPhases = (
+				8EFEABCD211E90C5003130CE /* Sources */,
+				8EFEABCE211E90C5003130CE /* Frameworks */,
+				8EFEABCF211E90C5003130CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "myr-crypto";
+			productName = "myr-crypto";
+			productReference = 8EFEABD1211E90C5003130CE /* myr-crypto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EFEABE4211E90C6003130CE /* myr-cryptoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EFEABF1211E90C6003130CE /* Build configuration list for PBXNativeTarget "myr-cryptoTests" */;
+			buildPhases = (
+				8EFEABE1211E90C6003130CE /* Sources */,
+				8EFEABE2211E90C6003130CE /* Frameworks */,
+				8EFEABE3211E90C6003130CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EFEABE7211E90C6003130CE /* PBXTargetDependency */,
+			);
+			name = "myr-cryptoTests";
+			productName = "myr-cryptoTests";
+			productReference = 8EFEABE5211E90C6003130CE /* myr-cryptoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EFEABC9211E90C5003130CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Hafez Busra";
+				TargetAttributes = {
+					8EFEABD0211E90C5003130CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8EFEABE4211E90C6003130CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8EFEABD0211E90C5003130CE;
+					};
+				};
+			};
+			buildConfigurationList = 8EFEABCC211E90C5003130CE /* Build configuration list for PBXProject "myr-crypto" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EFEABC8211E90C5003130CE;
+			productRefGroup = 8EFEABD2211E90C5003130CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EFEABD0211E90C5003130CE /* myr-crypto */,
+				8EFEABE4211E90C6003130CE /* myr-cryptoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EFEABCF211E90C5003130CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFEABDF211E90C6003130CE /* LaunchScreen.storyboard in Resources */,
+				8EFEABDC211E90C6003130CE /* Assets.xcassets in Resources */,
+				8EFEABDA211E90C6003130CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFEABE3211E90C6003130CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EFEABCD211E90C5003130CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFEABD7211E90C5003130CE /* ViewController.swift in Sources */,
+				8EFEABD5211E90C5003130CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFEABE1211E90C6003130CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFEABEA211E90C6003130CE /* myr_cryptoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EFEABE7211E90C6003130CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EFEABD0211E90C5003130CE /* myr-crypto */;
+			targetProxy = 8EFEABE6211E90C6003130CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EFEABD8211E90C6003130CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EFEABD9211E90C6003130CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EFEABDD211E90C6003130CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EFEABDE211E90C6003130CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EFEABEC211E90C6003130CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EFEABED211E90C6003130CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EFEABEF211E90C6003130CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "myr-crypto/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hafezbusra.myr-crypto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EFEABF0211E90C6003130CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "myr-crypto/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hafezbusra.myr-crypto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EFEABF2211E90C6003130CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "myr-cryptoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hafezbusra.myr-cryptoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myr-crypto.app/myr-crypto";
+			};
+			name = Debug;
+		};
+		8EFEABF3211E90C6003130CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "myr-cryptoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hafezbusra.myr-cryptoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myr-crypto.app/myr-crypto";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EFEABCC211E90C5003130CE /* Build configuration list for PBXProject "myr-crypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EFEABEC211E90C6003130CE /* Debug */,
+				8EFEABED211E90C6003130CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EFEABEE211E90C6003130CE /* Build configuration list for PBXNativeTarget "myr-crypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EFEABEF211E90C6003130CE /* Debug */,
+				8EFEABF0211E90C6003130CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EFEABF1211E90C6003130CE /* Build configuration list for PBXNativeTarget "myr-cryptoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EFEABF2211E90C6003130CE /* Debug */,
+				8EFEABF3211E90C6003130CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EFEABC9211E90C5003130CE /* Project object */;
+}
