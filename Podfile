@@ -2,17 +2,11 @@
 platform :ios, '9.0'
 
 target 'myr-crypto' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  # Comment the next line if you're not using Swift and don't want to use dynamic
   use_frameworks!
 
   # Pods for myr-crypto
-
-
-  target 'myr-cryptoTests' do
-    inherit! :search_paths
-    # Pods for testing
-    pod 'Alamofire'
-    pod 'SwiftyJSON
-  end
+	pod 'Alamofire'
+	pod 'SwiftyJSON’
 
 end

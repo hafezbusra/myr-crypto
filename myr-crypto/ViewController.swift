@@ -10,19 +10,23 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
+
 class ViewController: UIViewController ,UIPickerViewDelegate ,UIPickerViewDataSource{
 
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var cryptoPicker: UIPickerView!
+    @IBOutlet weak var cryptoImage: UIImageView!
     
     let baseURL = "https://apiv2.bitcoinaverage.com/indices/global/ticker/"
-    let cryptoArray = ["BTC", "ETH"]
+    let cryptoArray = ["BTC","BCH","ETH","LTC","DASH","XRP","XMR","ZEC"]
     var finalURL = ""
+    
+    var cryptoImageArray = ["BCC","BCH","ETH","LITE","Dash","RIPPLE","MONERO","ZCASH"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+        getAPIData(url: "https://apiv2.bitcoinaverage.com/indices/global/ticker/BTCMYR")
         cryptoPicker.delegate = self
         cryptoPicker.dataSource = self
     }
@@ -50,8 +54,8 @@ class ViewController: UIViewController ,UIPickerViewDelegate ,UIPickerViewDataSo
         
         finalURL = baseURL + cryptoArray[row] + "MYR"
         print(finalURL)
-
-        ///getAPIData(url: finalURL)
+        cryptoImage.image = UIImage(named:cryptoImageArray[row]);
+        getAPIData(url: finalURL)
         
     }
     
@@ -72,7 +76,7 @@ class ViewController: UIViewController ,UIPickerViewDelegate ,UIPickerViewDataSo
                     
                 } else {
                     print("Error: \(String(describing: response.result.error))")
-                    self.bitcoinPriceLabel.text = "Connection Issues"
+                    self.priceLabel.text = "Connection Issues"
                 }
         }
         
@@ -91,7 +95,7 @@ class ViewController: UIViewController ,UIPickerViewDelegate ,UIPickerViewDataSo
             
             
             
-            priceLabel.text = cryptoSelected + String(cryptoResult)
+            priceLabel.text = "RM"+String(cryptoResult)
             
             
         }else{

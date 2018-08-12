@@ -13,6 +13,7 @@
 		8EFEABDC211E90C6003130CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFEABDB211E90C6003130CE /* Assets.xcassets */; };
 		8EFEABDF211E90C6003130CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFEABDD211E90C6003130CE /* LaunchScreen.storyboard */; };
 		8EFEABEA211E90C6003130CE /* myr_cryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFEABE9211E90C6003130CE /* myr_cryptoTests.swift */; };
+		C0F84A3EEAD2392E8E9A5B61 /* Pods_myr_crypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DD89AF7CED4FBB809FF4DB /* Pods_myr_crypto.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		529B683CF9E3621CC8029214 /* Pods-myr-crypto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myr-crypto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myr-crypto/Pods-myr-crypto.debug.xcconfig"; sourceTree = "<group>"; };
+		6C64D25727001DE29DF69A53 /* Pods-myr-crypto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myr-crypto.release.xcconfig"; path = "Pods/Target Support Files/Pods-myr-crypto/Pods-myr-crypto.release.xcconfig"; sourceTree = "<group>"; };
 		8EFEABD1211E90C5003130CE /* myr-crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "myr-crypto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFEABD4211E90C5003130CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EFEABD6211E90C5003130CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		8EFEABE5211E90C6003130CE /* myr-cryptoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "myr-cryptoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFEABE9211E90C6003130CE /* myr_cryptoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myr_cryptoTests.swift; sourceTree = "<group>"; };
 		8EFEABEB211E90C6003130CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5DD89AF7CED4FBB809FF4DB /* Pods_myr_crypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myr_crypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0F84A3EEAD2392E8E9A5B61 /* Pods_myr_crypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +61,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82A5B142FEFE4DD7D95A349C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				529B683CF9E3621CC8029214 /* Pods-myr-crypto.debug.xcconfig */,
+				6C64D25727001DE29DF69A53 /* Pods-myr-crypto.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8EFEABC8211E90C5003130CE = {
 			isa = PBXGroup;
 			children = (
 				8EFEABD3211E90C5003130CE /* myr-crypto */,
 				8EFEABE8211E90C6003130CE /* myr-cryptoTests */,
 				8EFEABD2211E90C5003130CE /* Products */,
+				82A5B142FEFE4DD7D95A349C /* Pods */,
+				E6ED9D7399162D5BC03686B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +112,14 @@
 			path = "myr-cryptoTests";
 			sourceTree = "<group>";
 		};
+		E6ED9D7399162D5BC03686B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5DD89AF7CED4FBB809FF4DB /* Pods_myr_crypto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EFEABEE211E90C6003130CE /* Build configuration list for PBXNativeTarget "myr-crypto" */;
 			buildPhases = (
+				168A7C660EA75FE2F23136FB /* [CP] Check Pods Manifest.lock */,
 				8EFEABCD211E90C5003130CE /* Sources */,
 				8EFEABCE211E90C5003130CE /* Frameworks */,
 				8EFEABCF211E90C5003130CE /* Resources */,
+				89658B5090CA87A73B753797 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +219,47 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		168A7C660EA75FE2F23136FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myr-crypto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89658B5090CA87A73B753797 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-myr-crypto/Pods-myr-crypto-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myr-crypto/Pods-myr-crypto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8EFEABCD211E90C5003130CE /* Sources */ = {
@@ -351,9 +418,10 @@
 		};
 		8EFEABEF211E90C6003130CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 529B683CF9E3621CC8029214 /* Pods-myr-crypto.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LHJPK759T;
 				INFOPLIST_FILE = "myr-crypto/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hafezbusra.myr-crypto";
@@ -365,9 +433,10 @@
 		};
 		8EFEABF0211E90C6003130CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C64D25727001DE29DF69A53 /* Pods-myr-crypto.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LHJPK759T;
 				INFOPLIST_FILE = "myr-crypto/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hafezbusra.myr-crypto";
